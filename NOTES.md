@@ -1,6 +1,6 @@
 #### Fix Errors and get Running
 
-Found this on the Elixir site that gives some helpful insight into the
+Found this on the [Elixir site](http://elixir-lang.org/getting-started/mix-otp/distributed-tasks-and-configuration.html) that gives some helpful insight into the
 short name vs long name differences.
 ```
 In order to run distributed code, we need to start the VM with a name.
