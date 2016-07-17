@@ -15,7 +15,7 @@ fi
 
 erl -pa deps/*/ebin plugins/*/ebin ebin \
     -boot start_sasl +P 2000000 \
-    -sname ybot@$(hostname) \
+    -name ybot@$(hostname) \
     -s ybot \
     -config ybot \
     -noshell \

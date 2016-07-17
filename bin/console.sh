@@ -1,3 +1,3 @@
 #!/bin/bash
 
-erl -remsh ybot@$(hostname) -sname ybot_$RANDOM@$(hostname)
+erl -remsh ybot@$(hostname) -name ybot_$RANDOM@$(hostname)
