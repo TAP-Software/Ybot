@@ -9,7 +9,15 @@ Ybot is a customizable bot which was inspired by GitHub's [Hubot](http://hubot.g
   * Email bot.
   * Logging (see [lager_ybot_backend](https://github.com/0xAX/lager_ybot_backend)).
 
-[![Build Status](https://travis-ci.org/0xAX/Ybot.png)](https://travis-ci.org/0xAX/Ybot)
+[![Build Status](https://travis-ci.org/TAP-Software/Ybot.png)](https://travis-ci.org/TAP-Software/Ybot)
+
+TODO
+=========
+
+- [x] Get to build on Travis again
+  - [x] Fix issue with old repo url in dependency
+  - [x] Fix issue with cowlib not compiling
+- [ ] Get deployed to Heroku for testing
 
 Features
 =========
