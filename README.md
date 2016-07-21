@@ -11,8 +11,8 @@ Ybot is a customizable bot which was inspired by GitHub's [Hubot](http://hubot.g
 
 [![Build Status](https://travis-ci.org/TAP-Software/Ybot.png)](https://travis-ci.org/TAP-Software/Ybot)
 
-=========
 TODO
+=========
 
 - [x] Get to build on Travis again
   - [x] Fix issue with old repo url in dependency
