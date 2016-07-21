@@ -3,11 +3,11 @@ Ybot
 
 Ybot is a customizable bot which was inspired by GitHub's [Hubot](http://hubot.github.com/). What can you do with `Ybot`:
 
-  * Chat bot with many different [plugins](https://github.com/0xAX/ybot-contrib).
+  * Chat bot with many different [plugins](https://github.com/TAP-Software/ybot-contrib).
   * Bridge between `http` and different chat systems like `irc`, `xmpp` and etc...
   * Notification chat bot. See [@erlnews](https://twitter.com/erlnews) twitter bot.
   * Email bot.
-  * Logging (see [lager_ybot_backend](https://github.com/0xAX/lager_ybot_backend)).
+  * Logging (see [lager_ybot_backend](https://github.com/TAP-Software/lager_ybot_backend)).
 
 [![Build Status](https://travis-ci.org/TAP-Software/Ybot.png)](https://travis-ci.org/TAP-Software/Ybot)
 
@@ -54,10 +54,10 @@ Building and Running
 First of all you must get your own Ybot:
 
 ```
-git clone https://github.com/0xAX/Ybot.git
+git clone https://github.com/TAP-Software/Ybot.git
 ```
 
-Or download the source file archive: [.tar.gz](https://github.com/0xAX/Ybot/tarball/master) or [.zip](https://github.com/0xAX/Ybot/zipball/master)
+Or download the source file archive: [.tar.gz](https://github.com/TAP-Software/Ybot/tarball/master) or [.zip](https://github.com/TAP-Software/Ybot/zipball/master)
 
 After getting source you need to download dependencies and build the source:
 
@@ -103,7 +103,7 @@ Dependencies
   * [mimetypes](https://github.com/spawngrid/mimetypes) - Erlang MIME types library.
   * [erlang-oauth](https://github.com/tim/erlang-oauth) - An Erlang OAuth 1.0 implementation.
   * [Skype4Py](https://github.com/awahlig/skype4py) - Platform independent Python wrapper for the Skype API.
-  * [gen_smtpc](https://github.com/0xAX/gen_smtpc) - Simple erlang smtp client.
+  * [gen_smtpc](https://github.com/TAP-Software/gen_smtpc) - Simple erlang smtp client.
 
 Transport
 ==========
@@ -197,7 +197,7 @@ Current plugins
   * translate - use google translate from Ybot.
   * url - url encode/decode plugin.
 
-These are Ybot's core plugins. You can find other plugins at [ybot-contrib](https://github.com/0xAX/ybot-contrib) or see at [ybot plugins catalog](http://0xax.github.com/ybot-plugins.html).
+These are Ybot's core plugins. You can find other plugins at [ybot-contrib](https://github.com/TAP-Software/ybot-contrib) or see at [ybot plugins catalog](http://0xax.github.com/ybot-plugins.html).
 
 Ybot brain REST API
 ============
@@ -237,7 +237,7 @@ Ybot is an open source project under the Erlang public license (see LICENSE file
 If you're hacking Ybot core, please, before sending your pull request,
 pull and merge Ybot master to avoid conflicts.
 
-  * Fork main ybot repository (https://github.com/0xAX/Ybot).
+  * Fork main ybot repository (https://github.com/TAP-Software/Ybot).
   * Make your changes in your clone of ybot.
   * Test it.
   * Send pull request.
@@ -247,4 +247,4 @@ Author
 
 Creator of Ybot [@0xAX](https://twitter.com/0xAX).
 
-Thank you all who participating in Ybot developing. Names and contact information of those who helped, you can find the file [AUTHORS](https://github.com/0xAX/Ybot/blob/master/AUTHORS).
+Thank you all who participating in Ybot developing. Names and contact information of those who helped, you can find the file [AUTHORS](https://github.com/TAP-Software/Ybot/blob/master/AUTHORS).
