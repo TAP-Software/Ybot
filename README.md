@@ -17,7 +17,21 @@ TODO
 - [x] Get to build on Travis again
   - [x] Fix issue with old repo url in dependency
   - [x] Fix issue with cowlib not compiling
-- [ ] Get deployed to Heroku for testing
+- [x] Get deployed to Heroku for testing
+  - [ ] Get it to connect to Slack
+  - [ ] Get it to connect to Flowdock
+  - [ ] Connect to HTTP
+- [x] Update Contributors to front page of README
+- [ ] Check on License, appears to be just for Erlang ?
+- [ ] Check if dependencies can be update to use [Hex](https://hex.pm)
+  - [ ] How to upgrade an OTP app like this?
+  - [ ] Are the dependencies available on Hex.pm?
+  - [ ] Switch the current setup to pull from Hex.pm
+- [ ] Squash all old bugs.
+- [ ] Tests? [Buehler? Tests? Bueler?](https://cdn.meme.am/instances/500x/69579426.jpg)
+  - [ ] Once base functionality is established wrap with system tests
+  - [ ] Work testing from the outside in as things become clearer
+
 
 Features
 =========
@@ -247,4 +261,14 @@ Author
 
 Creator of Ybot [@0xAX](https://twitter.com/0xAX).
 
-Thank you all who participating in Ybot developing. Names and contact information of those who helped, you can find the file [AUTHORS](https://github.com/TAP-Software/Ybot/blob/master/AUTHORS).
+Thank you all who participated in Ybot development.
+Ybot Contributors:
+
+  * Alin Popa @alinpopa
+  * Martin Wiso @tgrk
+  * James Turnbull @jamtur01
+  * Jonn Mostovoy @manpages
+  * Carlo Bertoldi @cbertoldi
+  * Andreas Stenius @kaos
+  * Tim McGilchrist @tmcgilchrist
+  * Eduardo Gurgel @edgurgel
