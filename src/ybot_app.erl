@@ -18,5 +18,6 @@
 start(_StartType, _StartArgs) ->
     ybot_sup:start_link().
 
+%% TODO is this the same as a NOOP ?
 stop(_State) ->
     ok.
