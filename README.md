@@ -269,11 +269,12 @@ Creator of Ybot [@0xAX](https://twitter.com/0xAX).
 Thank you all who participated in Ybot development.
 Ybot Contributors:
 
-  * Alin Popa @alinpopa
-  * Martin Wiso @tgrk
-  * James Turnbull @jamtur01
-  * Jonn Mostovoy @manpages
-  * Carlo Bertoldi @cbertoldi
-  * Andreas Stenius @kaos
-  * Tim McGilchrist @tmcgilchrist
-  * Eduardo Gurgel @edgurgel
+  * Alin Popa [@alinpopa](https://github.com/alinpopa)
+  * Martin Wiso [@tgrk](https://github.com/tgrk)
+  * James Turnbull [@jamtur01](https://github.com/jamtur01)
+  * Jonn Mostovoy [@manpages](https://github.com/manpages)
+  * Carlo Bertoldi [@cbertoldi](https://github.com/cbertoldi)
+  * Andreas Stenius [@kaos](https://github.com/kaos)
+  * Tim McGilchrist [@tmcgilchrist](https://github.com/tmcgilchrist)
+  * Eduardo Gurgel [@edgurgel](https://github.com/edgurgel)
+
