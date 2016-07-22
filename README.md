@@ -31,6 +31,11 @@ TODO
 - [ ] Tests? [Buehler? Tests? Bueler?](https://cdn.meme.am/instances/500x/69579426.jpg)
   - [ ] Once base functionality is established wrap with system tests
   - [ ] Work testing from the outside in as things become clearer
+- [ ] Security Updates
+  - [ ] Ability to make transport communication encrypted?
+  - [ ] Latest Auth strategies
+  - [ ] Use TSL 1.2+ over SSL
+  - [ ] Unable to spoof processes
 
 
 Features
@@ -101,8 +106,8 @@ Run on heroku
 cd Ybot
 heroku create your-application-name -s cedar
 heroku config:add BUILDPACK_URL=http://github.com/heroku/heroku-buildpack-erlang.git
-echo OTP_R15B01 > .preferred_otp_version
-git commit "Select R15B01 as preferred OTP version" .preferred_otp_version
+echo OTP-19.0 > .preferred_otp_version
+git commit "Select OTP-19.0 as preferred OTP version" .preferred_otp_version
 git push heroku master
 ```
 
@@ -113,7 +118,7 @@ Dependencies
   * [reloader](https://github.com/bjnortier/reloader) - Mochiweb's reloader.
   * [ibrowse](https://github.com/cmullaparthi/ibrowse) - Erlang http client.
   * [jiffy](https://github.com/davisp/jiffy) - JSON NIFs for Erlang.
-  * [cowboy](https://github.com/extend/cowboy) - Small, fast, modular HTTP server written in Erlang.
+  * [cowboy](https://github.com/ninenines/cowboy) - Small, fast, modular HTTP server written in Erlang.
   * [mimetypes](https://github.com/spawngrid/mimetypes) - Erlang MIME types library.
   * [erlang-oauth](https://github.com/tim/erlang-oauth) - An Erlang OAuth 1.0 implementation.
   * [Skype4Py](https://github.com/awahlig/skype4py) - Platform independent Python wrapper for the Skype API.
@@ -211,7 +216,7 @@ Current plugins
   * translate - use google translate from Ybot.
   * url - url encode/decode plugin.
 
-These are Ybot's core plugins. You can find other plugins at [ybot-contrib](https://github.com/TAP-Software/ybot-contrib) or see at [ybot plugins catalog](http://0xax.github.com/ybot-plugins.html).
+These are Ybot's core plugins. You can find other plugins at [ybot-contrib](https://github.com/TAP-Software/ybot-contrib).
 
 Ybot brain REST API
 ============
